@@ -40,8 +40,8 @@ export const AccountForm = ({
     defaultValues: defaultValues,
   });
 
-  const handleSubmit = (value: FormValues) => {
-    console.log({ value });
+  const handleSubmit = (values: FormValues) => {
+    onSubmit(values)
   };
 
   const handleDelete = () => {

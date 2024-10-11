@@ -8,6 +8,7 @@ import {zValidator} from '@hono/zod-validator'
 
 const app = new Hono()
     .get("/", clerkMiddleware(), async (c) => {
+        
         const auth = getAuth(c);
         if (!auth?.userId) {
             return c.json(
@@ -52,5 +53,6 @@ const app = new Hono()
 
         return c.json({ data  })
     })
+    
 
 export default app;
