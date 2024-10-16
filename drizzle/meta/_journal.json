@@ -15,6 +15,13 @@
       "when": 1728105524986,
       "tag": "0001_motionless_dreaming_celestial",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1729095162462,
+      "tag": "0002_clever_speed",
+      "breakpoints": true
     }
   ]
 }
