@@ -52,7 +52,7 @@ const AccountsPage = () => {
             <DataTable onDelete={(row) => {
               const ids = row.map((r) => r.original.id)
               deleteAccounts.mutate({ids})
-            }} disables={isDisable} filterKey="name" columns={columns} data={accounts} />
+            }} disabled={isDisable} filterKey="name" columns={columns} data={accounts} />
         </CardContent>
       </Card>
     </div>

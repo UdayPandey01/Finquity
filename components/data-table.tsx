@@ -33,7 +33,7 @@ interface DataTableProps<TData, TValue> {
   data: TData[];
   filterKey: string;
   onDelete: (rows: Row<TData>[]) => void;
-  disables?: boolean;
+  disabled?: boolean;
 }
 
 export function DataTable<TData, TValue>({

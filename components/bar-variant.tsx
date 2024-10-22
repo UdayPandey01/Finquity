@@ -1,7 +1,3 @@
-import dynamic from 'next/dynamic';
-
-const ClerkLoaded = dynamic(() => import('@clerk/clerk-react').then(mod => mod.ClerkLoaded), { ssr: false });
-
 import {Tooltip, XAxis,BarChart, ResponsiveContainer, CartesianGrid, Bar} from "recharts"
 import {format} from "date-fns"
 import { CustomToolTip } from "./custom-tooltip"
