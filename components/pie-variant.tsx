@@ -3,7 +3,7 @@ import {Tooltip, ResponsiveContainer, Legend, Pie, Cell, PieChart} from "rechart
 import { formatPercentage } from "@/lib/utils"
 import { CategoryToolTip } from "./category-tooltip"
 
-const COLORS = ["#333333", "#000000", "#555555", "#888888"]
+const COLORS = ["#0062ff", "#12c6ff", "#ff647f", "#ff9354"]
 
 type Props = {
     data ?: {
